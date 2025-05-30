@@ -1,0 +1,5 @@
+"homepage": "https://ваш-логин.github.io/имя-репозитория",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
