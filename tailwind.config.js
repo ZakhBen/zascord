@@ -1,9 +1,17 @@
-```css
+```js
 
-@tailwind base;
+module.exports = {
 
-@tailwind components;
+content: ["./src/**/*.{js,jsx,ts,tsx}"],
 
-@tailwind utilities;
+theme: {
+
+extend: {},
+
+},
+
+plugins: [],
+
+}
 
 ```
